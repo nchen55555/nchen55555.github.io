@@ -9,7 +9,6 @@ languages:
   - item: Swift
   - item: C
   - item: C++
-  - item: Flask
 
 tools:
   - item: Git & Github
@@ -27,3 +26,7 @@ design:
   - item: UserTesting
   - item: Microsoft Office
   - item: User Testing
+
+data:
+  - item: Amplitude
+  - item: Excel 
