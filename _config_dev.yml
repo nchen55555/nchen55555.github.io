@@ -1,16 +1,16 @@
 # Site settings
-name: Brittany Chiang
-title: Brittany Chiang | Front End Software Engineer
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+name: Nicole Chen
+title: Nicole Chen | Student
+description: a user-centric product engineer and student driven by a humility in learning from others balanced by a confidence in her own ideals. 
+url: https://nchen55555.github.io/
 baseurl: ''
-email: brittany.chiang@gmail.com
+email: nicole_chen@college.havard.edu
 cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+logo: https://bchiang7.github.io/img/emojis/student.png
+resume: https://nchen55555.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
+    url: mailto:nicole_chen@college.harvard.edu
   - title: twitter
     url: https://twitter.com/bchiang7
   - title: instagram
