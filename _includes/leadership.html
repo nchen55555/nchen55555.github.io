@@ -1,0 +1,20 @@
+<section class="section experience">
+    <div class="section__title">Leadership and Activities</div>
+    <div class="section__content">
+      <div class="jobs">
+        {% for activity in site.data.leadership %}
+        <div class="job">
+          <div class="time-place">
+            <div class="job__company">
+              <a href="{{activity.url}}" target="_blank">{{activity.company}}</a>
+            </div>
+            <div class="job__time">{{activity.time}}</div>
+          </div>
+          <div class="job__position">{{activity.position}}</div>
+          <div>{{activity.description}}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  
