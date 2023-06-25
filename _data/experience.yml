@@ -2,11 +2,10 @@
   url: https://www.snapchat.com/
   time: Jun 2023 - Present
   position: Software Engineer Intern
-  description: | 
-    * Foo
-    * Bar
-    * Baz
-
+  description: 
+    - title: mountain bikes
+    - title: road bikes
+    - title: hybrid bikes
 - company: Harvard John A. Paulson School of Engineering and Applied Sciences
   url: https://cs51.io/staff/
   time: Jan 2023 - Present
