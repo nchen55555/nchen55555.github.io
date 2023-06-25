@@ -1,18 +1,27 @@
-- company: Upstatement
-  url: https://www.upstatement.com/
-  time: May 2018 - Present
-  position: Engineer
+- company: Snapchat
+  url: https://www.snapchat.com/
+  time: Jun 2023 - Present
+  position: Software Engineer Intern
   description: 
   - [ ] Read sci-fi
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2018
-  position: Studio Developer
-  description: asdfassfdfadsfdsf
+- company: Harvard John A. Paulson School of Engineering and Applied Sciences
+  url: https://cs51.io/staff/
+  time: Jan - Present
+  position: CS51 Teaching Fellow
+  description: 
+  - [ ] Read sci-fi
 
-- company: Apple Music
-  url: https://www.apple.com/music/
-  time: July - Dec 2017
-  position: UI Engineer Co-op
-  description: asdfassfdfadsfdsf
+- company: EBSCO Information Services
+  url: https://www.ebsco.com/
+  time: Jun 2022 - Sep 2022
+  position: Product Strategy and Management Intern
+  description: 
+  - [ ] Read sci-fi
+
+- company: Campus Insights
+  url: https://www.campus-insights.com/ 
+  time: Sep 2021 - Sep 2022
+  position: Head of UI/UX Research
+  description: 
+  - [ ] Read sci-fi
