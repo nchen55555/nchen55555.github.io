@@ -2,14 +2,8 @@
   url: https://www.upstatement.com/
   time: May 2018 - Present
   position: Engineer
-  description: | 
- \noindent
-
-  * Foo
-
-  * Bar
-
-  * Baz
+  description: 
+  - [ ] Read sci-fi
 
 - company: Scout
   url: https://web.northeastern.edu/scout/
