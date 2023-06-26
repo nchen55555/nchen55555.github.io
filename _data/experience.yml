@@ -3,10 +3,8 @@
   time: Jun 2023 - Present
   position: Software Engineer Intern
   description: 
-    - title: Assessing and experimenting with 120 Generative AI models based on recent Stable Diffusion techniques, 
-    presenting findings to a group of 15 executives and engineers at Snapchat before implementation 
-    - title: Developing an API that would enable seamless integration of the best-performing model 
-    into Snapchat’s user-facing StoryStudio for Discover image-generation by creators using Go and Python
+    - title: Assessing and experimenting with 120 Generative AI models based on recent Stable Diffusion techniques, presenting findings to a group of 15 executives and engineers at Snapchat before implementation 
+    - title: Developing an API that would enable seamless integration of the best-performing model into Snapchat’s user-facing StoryStudio for Discover image-generation by creators using Go and Python
     - title: Optimizing and re-training model for improved performance, assessing production environment before full deployment
 
 - company: Harvard John A. Paulson School of Engineering and Applied Sciences
@@ -15,8 +13,7 @@
   position: CS51 Teaching Fellow
   description: 
     - title: Taught CS51, a rigorous introduction to OCamlfunctional programming, abstraction, object-oriented programming, and design, with Professor Stuart Shieber
-    - title: Planned and taught weekly sections of 15 students, led office hours, instructed biweekly labs, graded assignments, and provided
-    input on course direction and evaluation
+    - title: Planned and taught weekly sections of 15 students, led office hours, instructed biweekly labs, graded assignments, and provided input on course direction and evaluation
     
 - company: EBSCO Information Services
   url: https://www.ebsco.com/
@@ -25,9 +22,7 @@
   description: 
     - title: Facilitated the development of a B2C product's roadmap with more than 600+ library customers and 5K monthly clicks
     - title: Ideated full-scale integration for SaaS product for the next 3 PIs to a cohort of 40 executives including the Senior VP of Product
-    - title: Conducted and synthesized 6 usability tests, oversaw a team of 3 (2 designers, 1 researcher) to develop 5 low fidelity prototypes 
-       for product integration on InVision, mapped user journeys through Amplitude usage analytics to develop product personas,  
-       charted Blue Ocean strategy competitor analysis, and facilitated 10 one-on-one customer and stakeholder interviews
+    - title: Conducted and synthesized 6 usability tests, oversaw a team of 3 (2 designers, 1 researcher) to develop 5 low fidelity prototypes for product integration on InVision, mapped user journeys through Amplitude usage analytics to develop product personas, charted Blue Ocean strategy competitor analysis, and facilitated 10 one-on-one customer and stakeholder interviews
 
 - company: Campus Insights
   url: https://www.campus-insights.com/ 
@@ -36,5 +31,4 @@
   description: 
     - title: Secured over $140K in revenue within the first 6 months of promotion 
     - title: Pioneered user recruitment with strategic market outreach, screener synthesis, and candidate evaluation for Google, Chegg, and VSCO
-    - title: Redefined Campus Insight's service offerings after careful competitior analysis and research. Facilitated company's pivot towards 
-    more user-recruitment services amidst altering client demands after COVID-19. Restructured package offerings, recruitment pipeline, and client outreach
+    - title: Redefined Campus Insight's service offerings after careful competitior analysis and research. Facilitated company's pivot towards more user-recruitment services amidst altering client demands after COVID-19. Restructured package offerings, recruitment pipeline, and client outreach
