@@ -1,7 +1,7 @@
 - name: ci scraper
   url: https://github.com/nchen55555/CIScraper 
   code: https://github.com/nchen55555/CIScraper 
-  description: a Python web extraction program that utilizes Selenium to automate social media handle-based extraction via hashtagged post, filtering by age, number of followers, and geography. developed for Campus Insights to automate recruiting for the NFL for their Inspire Change campaign. 
+  description: asdf # a Python web extraction program that utilizes Selenium to automate social media handle-based extraction via hashtagged post, filtering by age, number of followers, and geography. developed for Campus Insights to automate recruiting for the NFL for their Inspire Change campaign. 
   used:
     - thing: Python
     - thing: Selenium
