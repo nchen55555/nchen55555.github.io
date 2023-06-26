@@ -3,35 +3,17 @@
     .row {
       display: flex;
     }
-
     .column {
-      flex: 50%;
+      flex: 70%;
     }
-    .css-after-gradiant {
-  position: relative;
-    }
-    .css-after-gradiant img {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-    }
-    .css-after-gradiant::after {
-      content: "";
-      width: 315px;
-      height: 315px;
-      border-radius: 50%;
-      background: linear-gradient(
-        90deg,
-        rgba(255, 87, 34, 1) 0%,
-        rgba(205, 220, 57, 1) 100%,
-        rgba(0, 212, 255, 1) 100%
-      );
-      display: block;
-      position: absolute;
-      top: -5px;
-      left: -5px;
-      z-index: -1;
-    }
+    .image--cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center right;
+  }
   </style>
   <div class="row">
     <div class="column">
@@ -56,9 +38,7 @@
       <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
     </div>
     <div class="column">
-      <div class="css-after-gradiant">
-        <img src="{{site.baseurl}}/headshot.png" alt=""/>
-      </div>
+      <img src="{{site.baseurl}}/headshot.png" alt="" class="image--cover"/>
     </div>
   </div>
   
