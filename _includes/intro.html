@@ -1,17 +1,24 @@
 <header class="intro">
   <style>
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 50%;
+    }
     .css-after-gradiant {
   position: relative;
     }
     .css-after-gradiant img {
-      width: 75px;
-      height: 75px;
+      width: 300px;
+      height: 300px;
       border-radius: 50%;
     }
     .css-after-gradiant::after {
       content: "";
-      width: 85px;
-      height: 85px;
+      width: 315px;
+      height: 315px;
       border-radius: 50%;
       background: linear-gradient(
         90deg,
@@ -50,7 +57,7 @@
     </div>
     <div class="column">
       <div class="css-after-gradiant">
-        <img src="https://i.pravatar.cc/75" />
+        <img src="{{site.baseurl}}/headshot.png" alt=""/>
       </div>
     </div>
   </div>
