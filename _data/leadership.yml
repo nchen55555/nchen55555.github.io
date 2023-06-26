@@ -1,18 +1,13 @@
 - company: Harvard Product Lab
   url: https://www.hcsproductlab.org/about 
-  description: 
-    - title: Revised the recruiting process for all members at Harvard Product Lab through restructing the organization's Product 
+  roles: 
+    - 
+      name: Director of Education
+      time: Jun 2023 - Present
+      description: 
+        - title: Revised the recruiting process for all members at Harvard Product Lab through restructing the organization's Product 
         education curriculum and strengthening institutional relationships in Product at companies such as Figma, Notion, and Salesforce
-    - title: Supervised, taught, and sourced 11 Product-related workshops regarding Product Management, Strategy, Engineering, and more. 
-
-  # roles: 
-  #   - 
-  #     name: Director of Education
-  #     time: Jun 2023 - Present
-      # description: 
-      #   - title: Revised the recruiting process for all members at Harvard Product Lab through restructing the organization's Product 
-      #   education curriculum and strengthening institutional relationships in Product at companies such as Figma, Notion, and Salesforce
-      #   - title: Supervised, taught, and sourced 11 Product-related workshops regarding Product Management, Strategy, Engineering, and more. 
+        - title: Supervised, taught, and sourced 11 Product-related workshops regarding Product Management, Strategy, Engineering, and more. 
 
 # - company: Harvard Computer Society Technology for Social Good
 #   url: https://socialgood.hcs.harvard.edu/
