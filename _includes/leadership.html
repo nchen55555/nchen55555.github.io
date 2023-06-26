@@ -1,30 +1,29 @@
-<!-- <section class="section experience">
-    <style>
-        li::before{
-            content: "👉";}
-    </style>
-    <div class="section__title">Leadership and Activities</div>
-    <div class="section__content">
-      <div class="jobs">
-        {% for activity in site.data.leadership %}
-        <div class="job">
-          <div class="time-place">
-            <div class="job__company">
-              <a href="{{activity.url}}" target="_blank">{{activity.company}}</a>
-            </div>
-            <div class="job__time">{{activity.time}}</div>
+<section class="section experience">
+  <style>
+    li::before{
+        content: "👉";}
+  </style>
+  <div class="section__title">Leadership and Activities</div>
+  <div class="section__content">
+    <div class="jo  bs">
+      {% for job in site.data.leadership %}
+      <div class="job">
+        <div class="time-place">
+          <div class="job__company">
+            <a href="{{job.url}}" target="_blank">{{job.company}}</a>
           </div>
-            <div class="job__position">{{activity.position}}</div>
-          <div>
-            <ul>
-              {% for item in activity.description %}
-              <li>{{item.title}}</li>
-              {% endfor %}
-            </ul>
-          </div>
+          <div class="job__time">{{job.time}}</div>
         </div>
-        {% endfor %}
+        <div class="job__position">{{job.position}}</div>
+        <div>
+          <ul>
+          {% for item in job.description %}
+          <li>{{item.title}}</li>
+          {% endfor %}
+          </ul>
+        </div>
       </div>
+      {% endfor %}
     </div>
-  </section>
-   -->
+  </div>
+</section>
