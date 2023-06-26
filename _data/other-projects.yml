@@ -1,7 +1,7 @@
 - name: Generative AI Image to Image Model Reconstruction
   url: https://generativeaitiles.streamlit.app/
   code: https://github.com/nchen55555/diffusionui
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+  description: An experimentation of 3 different Generative AI models 
   used:
     - thing: Streamlit
     - thing: Python
