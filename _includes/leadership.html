@@ -13,12 +13,12 @@
               <a href="{{activity.url}}" target="_blank">{{activity.company}}</a>
             </div>
             {% for pos in activity.roles %}
-              <div class="job__time">{{pos.position}}</div>
+              <div class="job__time">{{pos.position.name}}</div>
               </div>
-              <div class="job__position">{{position.time}}</div>
+              <div class="job__position">{{pos.position.time}}</div>
               <div>
               <ul>
-                  {% for item in pos.description %}
+                  {% for item in pos.position.description %}
                   <li>{{item.title}}</li>
                   {% endfor %}
               </ul>

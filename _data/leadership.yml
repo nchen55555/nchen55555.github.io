@@ -1,7 +1,8 @@
 - company: Harvard Product Lab
   url: https://www.hcsproductlab.org/about 
   roles: 
-    - position: Director of Education
+    - position: 
+      - name: Director of Education
       - time: Jun 2023 - Present
       - description: 
         - title: Revised the recruiting process for all members at Harvard Product Lab through restructing the organization's Product 
