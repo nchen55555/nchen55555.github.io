@@ -1,7 +1,9 @@
 - name: ci scraper
   url: https://github.com/nchen55555/CIScraper 
   code: https://github.com/nchen55555/CIScraper 
-  description: An experimentation of 3 different Generative AI models 
+  description: a Python web extraction program that utilizes Selenium to automate social media handle-based 
+  extraction via hashtagged post, filtering by age, number of followers, and geography. developed for Campus Insights to automate 
+  recruiting for the NFL for their Inspire Change campaign. 
   used:
     - thing: Python
     - thing: Selenium
@@ -11,7 +13,8 @@
 - name: dtc cs camps
   url: https://github.com/nchen55555/DTCCSCamps
   code: https://github.com/nchen55555/DTCCSCamps
-  description: An experimentation of 3 different Generative AI models 
+  description: a web platform for DTC Computer Science Camps, a non-profit organization I founded in highschool , featuring registration, members-specific resources, email integration, and updated blog
+  posts. hosted through Heroku Cloud Application software.
   used:
     - thing: Flask
     - thing: Python
@@ -22,7 +25,8 @@
 - name: gen ai image2image reconstruction
   url: https://generativeaitiles.streamlit.app/
   code: https://github.com/nchen55555/diffusionui
-  description: An experimentation of 3 different Generative AI models 
+  description: an experimental ui for 3 different image to image generative ai architectures. developed and trained for highest-performing image 
+  generation. 
   used:
     - thing: Streamlit
     - thing: Python
@@ -33,7 +37,8 @@
 - name: han.learning
   url: https://github.com/nchen55555/HAN.Learning
   code: https://github.com/nchen55555/HAN.Learning
-  description: An experimentation of 3 different Generative AI models 
+  description: an app that interactively teaches Object Oriented Programming. Used JSP, Microsoft SQL, Java, HTML, and JavaScript. developed to 
+  promote computer science education across high schools.
   used:
     - thing: Microsoft SQL
     - thing: JavaScript
@@ -44,7 +49,8 @@
 - name: miniML
   url: https://github.com/nchen55555/miniML
   code: https://github.com/nchen55555/miniML
-  description: An experimentation of 3 different Generative AI models 
+  description: a meta-circular interpreter in OCaml for a Turing-complete, ML-based language supporting atomic data types, 
+  lazy expressions, and lexically scoped environment semantics. 
   used:
     - thing: OCaml
     - thing: VS Code
@@ -52,7 +58,7 @@
 - name: onboarding @ hamilton families
   url: https://www.figma.com/file/4d3miwx5UlLstHKeEzfShz/%5BEXTERNAL-USE%5D-Hamilton-Families-%3C%3E-T4SG-Onboarding-Platform?type=design&node-id=1%3A4&mode=design&t=49YRryRzzzGNbFy3-1
   code: https://www.figma.com/file/4d3miwx5UlLstHKeEzfShz/%5BEXTERNAL-USE%5D-Hamilton-Families-%3C%3E-T4SG-Onboarding-Platform?type=design&node-id=1%3A4&mode=design&t=49YRryRzzzGNbFy3-1
-  description: An experimentation of 3 different Generative AI models 
+  description: onboarding platform for Hamilton Families, designed to teach employees the necessary technologies for company integration in the most accessible manner. 
   used:
     - thing: Figma
     - thing: Notion
@@ -60,7 +66,8 @@
 - name: usda namp 2.0
   url: https://www.figma.com/file/BF7ZWUp55qfBlyFvk4u3kg/USDA-Hi-Fidelity-%5BEXTERNAL%5D?type=design&node-id=102%3A44708&mode=design&t=289XTQrRZm9LebGm-1
   code: https://www.figma.com/file/BF7ZWUp55qfBlyFvk4u3kg/USDA-Hi-Fidelity-%5BEXTERNAL%5D?type=design&node-id=102%3A44708&mode=design&t=289XTQrRZm9LebGm-1
-  description: An experimentation of 3 different Generative AI models 
+  description: a redesign of the united state's department of agriculture's program management software which handles over $1 billion in funding 
+  and is utilized by thousands of users. developed to maximize efficiency in data reporting and integration. 
   used:
     - thing: Figma
     - thing: Notion
