@@ -7,16 +7,16 @@ $(function() {
   const input = document.getElementById('switch');
 
   if (night) {
-    input.checked = true;
+    input.checked = true;body.classList.remove('night');
     body.classList.add('night');
   }
 
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
-      body.classList.remove('night');
-    } else {
       body.classList.add('night');
+    } else {
+      body.classList.remove('night');
     }
   });
 
