@@ -5,22 +5,18 @@ description: a user-centric product engineer and student driven by a humility in
 url: https://nchen55555.github.io/
 baseurl: ''
 email: nicole_chen@college.harvard.edu
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/student.png
+cover: https://nchen55555.github.io/img/og.png
+logo: https://nchen55555.github.io/img/emojis/student.png
 resume: https://nchen55555.github.io/resume.pdf
 social:
   - title: email
     url: mailto:nicole_chen@college.harvard.edu
-  - title: twitter
-    url: https://twitter.com/bchiang7
   - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
+    url: https://instagram.com/nicole.chen35
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/nchen55555
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/nicoleyeechen/
 
 # Build settings
 markdown: kramdown
