@@ -2,6 +2,9 @@
   <style>
     li::before{
         content: "👉";}
+    .blue{
+      color:#007bff
+    }
   </style>
   <div class="section__title">Leadership and Activities</div>
   <div class="section__content">
@@ -9,7 +12,7 @@
       {% for job in site.data.leadership %}
       <div class="job">
         <div class="time-place">
-          <div class="job__company">
+          <div class="job__company blue">
             <a href="{{job.url}}" target="_blank">{{job.company}}</a>
           </div>
           <div class="job__time">{{job.time}}</div>
@@ -23,7 +26,6 @@
               <li>{{item.title}}</li>
               {% endfor %}
               </ul>
-            </div>
             </div>
             {% endfor %}
           </div>
