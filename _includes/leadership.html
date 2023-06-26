@@ -16,13 +16,14 @@
           </div>
           <div>
             {% for pos in job.role %}
-            <div class="job__position">{{pos.position}}</div>
+            <div class="job__position"><strong> {{job.position}} </strong></div>
             <div>
               <ul>
               {% for item in pos.description %}
               <li>{{item.title}}</li>
               {% endfor %}
               </ul>
+            </div>
             </div>
             {% endfor %}
           </div>
