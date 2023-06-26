@@ -4,15 +4,19 @@
     .column {
       float: left;
       padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
     }
-
     .left {
       width: 65%;
     }
 
     .right {
       width: 35%;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
     }
     .image--cover {
       width: 400px;
@@ -24,7 +28,7 @@
   }
     @media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+      width: 65%;
     }
   }
   </style>
