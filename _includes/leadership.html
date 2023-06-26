@@ -12,13 +12,13 @@
             <div class="job__company">
               <a href="{{activity.url}}" target="_blank">{{activity.company}}</a>
             </div>
-            {% for position in activity.position %}
-              <div class="job__time">{{position.time}}</div>
+            {% for pos in activity.roles %}
+              <div class="job__time">{{pos.position}}</div>
               </div>
-              <div class="job__position">{{position.description}}</div>
+              <div class="job__position">{{position.time}}</div>
               <div>
               <ul>
-                  {% for item in position.description %}
+                  {% for item in pos.description %}
                   <li>{{item.title}}</li>
                   {% endfor %}
               </ul>
