@@ -1,13 +1,12 @@
 - company: Harvard Product Lab
   url: https://www.hcsproductlab.org/about 
   role: 
-    - 
-    time: Jun 2023 - Present
-    position: Software Engineer Intern
-    description: 
-      - title: mountain bikes
-      - title: road bikes
-      - title: hybrid bikes
+    - time: Jun 2023 - Present
+      position: Software Engineer Intern
+      description: 
+        - title: mountain bikes
+        - title: road bikes
+        - title: hybrid bikes
 
 # - company: Harvard Product Lab
 #   url: https://www.hcsproductlab.org/about 
