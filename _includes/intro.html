@@ -60,6 +60,8 @@
     border-radius: 8px;
     overflow: hidden;  /* NEW */
     min-width: 0;      /* NEW; needed for Firefox */
+    overflow-wrap: normal;
+    word-breaK:break-all;
     /* background-color: hsl(240, 62%, 90%); */
   }
   .image--cover {
@@ -71,7 +73,7 @@
       object-fit: cover;
       object-position: center;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 600px) {
     .container {
       grid-template-columns: minmax(0, 1fr);
     }
