@@ -49,7 +49,6 @@
     display: grid;
     display: flex;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-    grid-template-rows: minmax(0, 1fr);
     gap: 1rem;
     min-height: 100vh;  /* NEW */
     min-width: 0;   /* NEW; needed for Firefox */
@@ -64,19 +63,6 @@
     min-width: 0;      /* NEW; needed for Firefox */
     min-height:100vh;
     display: flex;
-    /* overflow-wrap: normal;
-    /* word-breaK:break-all;
-    /* background-color: hsl(240, 62%, 90%); */
-  }
-
-  .row {
-    padding: 1rem;
-    display: flex;
-    border-radius: 8px;
-    max-width: 100%;
-    overflow: hidden;  /* NEW
-    min-width: 0;      /* NEW; needed for Firefox */
-    min-height:100vh;
     /* overflow-wrap: normal;
     /* word-breaK:break-all;
     /* background-color: hsl(240, 62%, 90%); */
@@ -96,7 +82,7 @@
       grid-template-columns: minmax(0, 1fr);
       grid-gap: 40px;
       width: 100%;
-      grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-rows: minmax(0, 2fr) minmax(0, 2fr);
     }
   }
   </style>
