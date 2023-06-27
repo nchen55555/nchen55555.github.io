@@ -8,6 +8,25 @@
     - thing: Pandas
     - thing: VS Code
 
+- name: gen ai image2image reconstruction
+  url: https://59f2-34-168-25-84.ngrok-free.app/
+  code: https://github.com/nchen55555/diffusionui
+  description: an experimental ui for 3 different image to image generative ai architectures. developed and trained for highest-performing image generation. 
+  used:
+    - thing: Streamlit
+    - thing: Python
+    - thing: Pytorch
+    - thing: TensorFlow
+    - thing: VS Code
+
+- name: miniML
+  url: https://github.com/nchen55555/miniML
+  code: https://github.com/nchen55555/miniML
+  description: a meta-circular interpreter in OCaml for a Turing-complete, ML-based language supporting atomic data types, lazy expressions, and lexically scoped environment semantics. 
+  used:
+    - thing: OCaml
+    - thing: VS Code
+
 - name: dtc cs camps
   url: https://github.com/nchen55555/DTCCSCamps
   code: https://github.com/nchen55555/DTCCSCamps
@@ -18,17 +37,6 @@
     - thing: Heroku
     - thing: SQLite 3
     - thing: HTML/CSS
-
-- name: gen ai image2image reconstruction
-  url: https://generativeaitiles.streamlit.app/
-  code: https://github.com/nchen55555/diffusionui
-  description: an experimental ui for 3 different image to image generative ai architectures. developed and trained for highest-performing image generation. 
-  used:
-    - thing: Streamlit
-    - thing: Python
-    - thing: Pytorch
-    - thing: TensorFlow
-    - thing: VS Code
 
 - name: han.learning
   url: https://github.com/nchen55555/HAN.Learning
@@ -41,13 +49,6 @@
     - thing: C#
     - thing: JavaServer Pages
 
-- name: miniML
-  url: https://github.com/nchen55555/miniML
-  code: https://github.com/nchen55555/miniML
-  description: a meta-circular interpreter in OCaml for a Turing-complete, ML-based language supporting atomic data types, lazy expressions, and lexically scoped environment semantics. 
-  used:
-    - thing: OCaml
-    - thing: VS Code
 
 - name: onboarding @ hamilton families
   url: https://www.figma.com/file/4d3miwx5UlLstHKeEzfShz/%5BEXTERNAL-USE%5D-Hamilton-Families-%3C%3E-T4SG-Onboarding-Platform?type=design&node-id=1%3A4&mode=design&t=49YRryRzzzGNbFy3-1
