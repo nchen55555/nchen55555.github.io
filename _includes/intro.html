@@ -1,11 +1,8 @@
+<head>
+  <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+</head>
 <header class="intro">
   <style>
-    .table {
-      display: table;
-      border-collapse: collapse;
-      width: 100%;
-      table-layout: fixed;
-    }
     /* Create two unequal columns that floats next to each other */
     .column {
       float: left;
@@ -41,32 +38,34 @@
     .section__content{padding-top:30px;padding-left:50px}
   }
   </style>
-  <div class = "table">
-    <div class="row">
-      <div class="column left">
-        <h1 class="intro__hello">Hey!
-          <span class="emoji wave-hand animated"></span>
-          <span class="emoji wail"></span>
-        </h1>
-      
-        <h2 class="intro__tagline">My name is
-          <span class="name">Nicole Chen</span>. I'm a student, driven by a humility to learn from those around me balanced by a steadfastness to my own ideals.
-        </h2>
-      
-        <h3 class="intro__contact">
-          <span>Let's Connect </span>
-          <span class="emoji pointer"></span>
-          <span>
-            <a href="mailto:nicole_chen@college.harvard.edu" target="_blank" class="highlight-link">nicole_chen@college.harvard.edu</a>
-          </span>
-        </h3>
-      
-        <!-- <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a> -->
-      </div>
-      <div class="column right">
-        <img src="{{site.baseurl}}/headshot.png" alt="" class="image--cover" width="50%" height="50%"/>
-      </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h1 class="intro__hello">Hey!
+        <span class="emoji wave-hand animated"></span>
+        <span class="emoji wail"></span>
+      </h1>
+    
+      <h2 class="intro__tagline">My name is
+        <span class="name">Nicole Chen</span>. I'm a student, driven by a humility to learn from those around me balanced by a steadfastness to my own ideals.
+      </h2>
+    
+      <h3 class="intro__contact">
+        <span>Let's Connect </span>
+        <span class="emoji pointer"></span>
+        <span>
+          <a href="mailto:nicole_chen@college.harvard.edu" target="_blank" class="highlight-link">nicole_chen@college.harvard.edu</a>
+        </span>
+      </h3>
+    
+      <!-- <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a> -->
+    </div>
+    <div class="col">
+      <img src="{{site.baseurl}}/headshot.png" alt="" class="image--cover" width="50%" height="50%"/>
     </div>
   </div>
+</div>
+
   
 </header>
