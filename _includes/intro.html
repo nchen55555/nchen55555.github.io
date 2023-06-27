@@ -73,11 +73,12 @@
       object-fit: cover;
       object-position: center;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .container {
       display: grid;
       grid-template-columns: minmax(0, 1fr);
       grid-gap: 40px;
+      width: 100%;
     }
   }
   </style>
@@ -105,7 +106,7 @@
     </div>
 
     <div class="column">
-      <img src="{{site.baseurl}}/headshot.png" alt="" class="image--cover" style="max-width:100%;height:auto;"/>
+      <img src="{{site.baseurl}}/headshot.png" alt="" class="image--cover"/>
     </div>
 
   </section>
