@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+<style>
+  .topnav {
+    overflow: hidden;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+</style>
+<div class="topnav" id="myTopnav">
+  <a href="{{site.baseurl}}/includes/intro.html" class="active">Home</a>
+  <!-- <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> -->
+</div>
 
 <div id="site">
   {% include switch.html %}
