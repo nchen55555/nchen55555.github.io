@@ -11,7 +11,7 @@ layout: default
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 50px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 15px;
   }
@@ -19,7 +19,6 @@ layout: default
 
 
 <div id="site">
-  {% include switch.html %}
   <div class="topnav">
     <a href="#intro" class="active">Intro</a>
     <a href="#background" class="active">Background</a>
@@ -29,6 +28,7 @@ layout: default
     <a href="#featured-projects" class="active">Featured Projects</a>
     <a href="#other-projects" class="active">Other Projects</a>
     <a href="#skills" class="active">Skills</a>
+    {% include switch.html %}
     <!-- <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
