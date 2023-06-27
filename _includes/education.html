@@ -1,0 +1,29 @@
+<section class="section education">
+    <style>
+      li::before{
+          content: "↠";}
+    </style>
+    <div class="section__title">Education</div>
+    <div class="section__content">
+      <div class="jo  bs">
+        {% for edu in site.data.education %}
+        <div class="job">
+          <div class="time-place">
+            <div class="job__company">
+              <a style = "color: #007bff; font-size: 4;" href="{{edu.url}}" target="_blank">{{edu.school}}</a>
+            </div>
+            <div class="job__time">{{edu.time}}</div>
+          </div>
+          <div>
+            <ul>
+            {% for item in edu.description %}
+            <li style="padding-bottom: 5px; padding-left: 10px; padding-right: 10px">{{item.title}}</li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  
