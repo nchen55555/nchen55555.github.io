@@ -35,6 +35,15 @@ layout: default
       .job__company{
         font-weight:700;
       }
+      .image--cover {
+      max-width: 100%;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+
+      object-fit: cover;
+      object-position: center;
+    }
   </style>
   
   
@@ -51,8 +60,9 @@ layout: default
       <a href="./unfiltered.html" class="active job__company">#Unfiltered</a>
       {% include switch.html %}
       </div>
-
-      <h1 class="intro__hello">#Unfiltered
+</div>  
+<div>
+    <h1 class="intro__hello">#Unfiltered
         <span class="emoji wave-hand animated"></span>
         <span class="emoji wail"></span>
     </h1>
@@ -66,16 +76,17 @@ layout: default
         </div>
     
         <div class="column">
-          <img src="{{site.baseurl}}/vibes.png" alt=""/>
+          <img class = "image--cover" src="{{site.baseurl}}/vibes.png" alt=""/>
         </div>
         <section class = "section__content"></section>
-      </section>
+    </section>
 
 
-      {% include food.html %}
+    {% include food.html %}
 
-      {% include reflections.html %}
-    </div>
+    {% include reflections.html %}
+</div>
+      
 
 
     
