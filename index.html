@@ -37,28 +37,30 @@ layout: default
     }
 </style>
 
-
-<div id="site">
-  <div class="topnav">
-    <a href="#intro" class="active job__company">Intro</a>
-    <a href="#background" class="active job__company">Background</a>
-    <a href="#education" class="active job__company">Education</a>
-    <a href="#experience" class="active job__company">Experience</a>
-    <a href="#leadership" class="active job__company">Leadership</a>
-    <a href="#featured-projects" class="active job__company">Featured Projects</a>
-    <a href="#other-projects" class="active job__company">Project Descriptions</a>
-    <a href="#skills" class="active job__company">Skills</a>
-    <a href="./unfiltered.html" class="active job__company">#Unfiltered</a>
-    {% include switch.html %}
+<body>
+  <div id="site">
+    <div class="topnav">
+      <a href="#intro" class="active job__company">Intro</a>
+      <a href="#background" class="active job__company">Background</a>
+      <a href="#education" class="active job__company">Education</a>
+      <a href="#experience" class="active job__company">Experience</a>
+      <a href="#leadership" class="active job__company">Leadership</a>
+      <a href="#featured-projects" class="active job__company">Featured Projects</a>
+      <a href="#other-projects" class="active job__company">Project Descriptions</a>
+      <a href="#skills" class="active job__company">Skills</a>
+      <a href="./unfiltered.html" class="active job__company">#Unfiltered</a>
+      {% include switch.html %}
+    </div>
+    {% include intro.html %}
+    {% include background.html %}
+    {% include education.html %}
+    {% include experience.html %}
+    {% include leadership.html %}
+    {% include featured-projects.html %}
+    {% include other-projects.html %}
+    {% include skills.html %}
+    {% include footer.html %}
+    {% include top-button.html %}
   </div>
-  {% include intro.html %}
-  {% include background.html %}
-  {% include education.html %}
-  {% include experience.html %}
-  {% include leadership.html %}
-  {% include featured-projects.html %}
-  {% include other-projects.html %}
-  {% include skills.html %}
-  {% include footer.html %}
-  {% include top-button.html %}
-</div>
+</body>
+
