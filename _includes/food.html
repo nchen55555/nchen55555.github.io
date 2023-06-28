@@ -1,69 +1,25 @@
-<header class="intro">
+  <section class="section experience">
+    <div class="section__title">ChenEatsFood</div>
     <style>
-    body {
-      margin: 0;
-      padding: 1rem;
-    }
-  
-    .container {
-      display: grid;
-      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-      gap: 1rem;
-      min-height: 0;  /* NEW */
-      min-width: 0;   /* NEW; needed for Firefox */
-      object-fit: contain
-    }
-  
-    .column {
-      padding: 1rem;
-      border-radius: 8px;
-      max-width: 100%;
-      /* overflow: hidden;  /* NEW */
-      min-width: 0;      /* NEW; needed for Firefox */
-      min-height:100vh;
-      /* overflow-wrap: normal;
-      /* word-breaK:break-all;
-      /* background-color: hsl(240, 62%, 90%); */
-    }
-    .image--cover {
-        max-width: 100%;
-        width: 400px;
-        height: 400px;
-        border-radius: 50%;
-  
-        object-fit: cover;
-        object-position: center;
-    }
-    @media (max-width: 768px) {
-      .container {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
-        grid-gap: 40px;
-        width: 100%;
-        grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
-      }
-    }
+      li::before{
+          content: "";}
     </style>
-  
-  <!-- <div class="container"> -->
-
-    
-  
-    <section class="container">
-      <div class="column">
-        <h3 class="intro__contact">
-          <span>Ayo! Check out @cheneatsfood on Instagram </span>
-          <span class="emoji pointer"></span>
-          <span>
-            <a href="https://www.instagram.com/cheneatsfood/" target="_blank" class="highlight-link">@cheneatsfood</a>
-          </span>
-        </h3>
-      </div>
-  
-      <div class="column">
-        <img src="{{site.baseurl}}/headshot.png" alt="" class="image--cover"/>
-      </div>
-    </section>
-<header\>
-
+    <div class="section__content">
+        <section class="container">
+            <div class="column">
+              <h3 class="intro__contact">
+                <span>Ayo! Check out @cheneatsfood on Instagram </span>
+                <span class="emoji pointer"></span>
+                <span>
+                  <a href="https://www.instagram.com/cheneatsfood/" target="_blank" class="highlight-link">@cheneatsfood</a>
+                </span>
+              </h3>
+            </div>
+        
+            <div class="column">
+              <img src="{{site.baseurl}}/headshot.png" alt="" class="image--cover"/>
+            </div>
+          </section>
+    </div>
+  </section>
   
