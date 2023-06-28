@@ -3,7 +3,8 @@
   time: Jun 2023 - Present
   position: Software Engineer Intern
   description: 
-    - title: Assessing and experimenting with 120 Generative AI models based on recent Stable Diffusion techniques, presenting findings to a group of 15 executives and engineers at Snapchat before implementation 
+    - title: Assessed and experimented with 120 Generative AI models combined with Image segmentation based on recent Stable Diffusion techniques, presenting findings to a group of 15 executives and engineers at Snapchat before implementation 
+    - title: Implemented a UI deployed on a Google Cloud Services' Virtual Machine processor for image to image generation coupld with image segmentation techniques 
     - title: Developing an API that would enable seamless integration of the best-performing model into Snapchat’s user-facing StoryStudio for Discover image-generation by creators using Go and Python
     - title: Optimizing and re-training model for improved performance, assessing production environment before full deployment
 
