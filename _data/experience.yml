@@ -4,7 +4,6 @@
   position: Software Engineer Intern
   description: 
     - title: Assessed and experimented with 120 Generative AI models combined with Image Segmentation based on recent Stable Diffusion techniques. Presented findings to a group of 15 executives and engineers at Snapchat before implementation 
-    - title: Implemented a <a href="https://2f1d-34-168-144-133.ngrok-free.app/">UI</a> hosted on Streamlit deployed on a Google Cloud Services' Virtual Machine processor for image to image generation coupled with image segmentation techniques 
     - title: Developing an API that would enable seamless integration of the best-performing model into Snapchat’s user-facing StoryStudio for Discover image-generation by creators using Go and Python
     - title: Optimizing and re-training model for improved performance, assessing production environment before full deployment
 
