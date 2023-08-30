@@ -9,7 +9,7 @@
     - thing: VS Code
 
 - name: gen ai image2image reconstruction
-  url: https://a35d-34-168-144-133.ngrok-free.app/
+  url: https://2f2e-35-239-167-13.ngrok-free.app/
   code: https://github.com/nchen55555/diffusionui
   description: An experimental ui for 5 different image to image generative ai architectures. Developed and trained for highest-performing image generation. 
   used:

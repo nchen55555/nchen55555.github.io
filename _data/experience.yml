@@ -3,17 +3,23 @@
   time: Jun 2023 - Present
   position: Software Engineer Intern
   description: 
-    - title: Assessed and experimented with 120 Generative AI models combined with Image Segmentation based on recent Stable Diffusion techniques. Presented findings to a group of 15 executives and engineers at Snapchat before implementation 
-    - title: Developing an API that would enable seamless integration of the best-performing model into Snapchat’s user-facing StoryStudio for Discover image-generation by creators using Go and Python
-    - title: Optimizing and re-training model for improved performance, assessing production environment before full deployment
+    - title: Spearheaded the first productionized Generative AI discover feed estimated to generate $200K in revenue. Flown out to present project for critical production review to 70 MLEs and executives including the CEO and VP of Engineering
+    - title: Analyzed and tuned over 120 Generative AI models based on recent Stable Diffusion and image segmentation techniques
+    - title: Integrated the best generative model into Story Studio utilizing Google Cloud SDK and Amazon S3 while leveraging full-stack development in Scala, Swagger, Python, Java, and Go
 
+- company: Harvard John A. Paulson School of Engineering and Applied Sciences
+  url: https://salil.seas.harvard.edu/classes/intro-algorithms-and-their-limitations-fall21
+  time: Aug 2023 - Present
+  position: CS120 Teaching Fellow (Data Structures and Algorithms)
+  description: 
+    - title: Taught algorithms and computational theory with Prof. Adam Hesterberg, hosting office hours and revising assignments
 - company: Harvard John A. Paulson School of Engineering and Applied Sciences
   url: https://cs51.io/staff/
   time: Jan 2023 - Present
-  position: CS51 Teaching Fellow
+  position: CS51 Teaching Fellow (Abstraction and Design in Computation)
   description: 
-    - title: Taught CS51, a rigorous introduction to OCaml functional programming, abstraction, object-oriented programming, and design with Professor Stuart Shieber
-    - title: Planned and taught weekly sections of 15 students, led office hours, instructed biweekly labs, graded assignments, and provided input on course direction and evaluation
+    - title: Partnered with Prof. Stuart Shieber to teach OCaml functional programming, abstraction, object-oriented coding, and design by facilitating weekly sections, office hours, biweekly labs, and revising course structure and direction
+
     
 - company: EBSCO Information Services
   url: https://www.ebsco.com/
