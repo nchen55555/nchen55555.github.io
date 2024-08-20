@@ -1,17 +1,18 @@
 languages:
   - item: Python
+  - item: Scala
+  - item: Proto
   - item: Java
-  - item: Go
   - item: OCaml
   - item: SQL
-  - item: HTML
-  - item: CSS
   - item: Swift
   - item: C
   - item: C++
 
 tools:
   - item: Git & Github
+  - item: Spark
+  - item: Flyte
   - item: Bazel
   - item: Google Cloud SDK 
   - item: MongoDB

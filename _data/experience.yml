@@ -1,6 +1,13 @@
+- company: Stripe 
+  url: https://stripe.com/
+  time: May 2024 - Present
+  position: Software Engineer Intern
+  description: 
+    - title: Pioneered the first model training workflow to score ML models in real-time rather than in batch. Deployed real-time scoring loan model with 100% accuracy rates to prior predictions, advising the Head of Data Science on new workflow
+    - title: Developed Capital’s expected loss rate calculator for Financial Risk team with explainability features for denied merchant loans, leveraging expertise in Streamlit, SQL, Scala, Spark, and Python for backend as well as Flyte and Airflow for training
 - company: Snapchat 
   url: https://www.snapchat.com/
-  time: Jun 2023 - Present
+  time: Jun 2023 - Aug 2023
   position: Software Engineer Intern
   description: 
     - title: Spearheaded the first productionized Generative AI discover feed estimated to generate $200K in revenue. Flown out to present project for critical production review to 70 MLEs and executives including the CEO and VP of Engineering
